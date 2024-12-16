@@ -68,7 +68,7 @@ p{
 }
 footer{
     margin-top: 1em;
-    border-top: var border;
+    border-top: var(--border);
     text-align: var(--textalign);
 }
 /* Class Selectors */
