@@ -91,4 +91,6 @@ nav a img{
     width: 50px;
     height: auto;
 }
-
+section img{
+    padding: 2em;
+}
