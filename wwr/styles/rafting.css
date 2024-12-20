@@ -4,7 +4,7 @@
     --accent1-color: #CCE3DE;
     --accent2-color: #EAF4F4;
     --p-color: black;
-    --border: border: 2px solid rgb(0 0 0 / .4);
+    --border: 2px solid rgb(0 0 0 / .4);
 }
 *{
     padding: 0;
@@ -35,7 +35,7 @@ body{
 }
 h1, h2{
     font-family: "Roboto", serif;
-    color: var(--primary-color);
+    color: black;
     margin: 2rem 1rem 1rem 1rem;
 }
 p{
