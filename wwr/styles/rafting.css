@@ -83,7 +83,7 @@ div.hero{
 }
 .hero article{
     position: absolute;
-    top: 7em;
+    top: 10em;
     width: 100%;
     background: rgb(199, 176, 143, .8);
     padding: 0;
