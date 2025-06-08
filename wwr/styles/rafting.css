@@ -66,5 +66,8 @@ h1 {
     float: right;
     width: 125px;
     margin: 0;
-    
+}
+nav a {
+    color: #eee;
+    text-decoration: none;
 }
