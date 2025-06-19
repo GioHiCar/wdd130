@@ -5,6 +5,7 @@
     --accent2-color: #DBE9EE;
     --heading-font: "Fugaz One";
     --body-font: "Roboto";
+    --low-opacity-border: solid 1px rgb(0 0 0 / 0.2)
 }
 * {
     margin: 0;
@@ -50,22 +51,20 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-section {
-    background-color: var(--accent2-color);
-}
-section:nth-child(3) {
+
+#adventure-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 15px 0 15px 0;
 }
-section:nth-child(3) h2 {
+#adventure-images h2 {
     grid-column: 1/6;
 }
 nav, p, section, article {
     margin: 0;
     padding: 8px;
 }
-.socialmedia a {
+.socialmedia a{
     text-decoration: none;
 }
 .hero {
@@ -121,4 +120,122 @@ footer p{
 }
 section h2 {
     margin: 10px;
+}
+
+a {
+    color: var(--accent1-color)
+}
+
+
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    font-family: var(--body-font);
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3em;
+    text-align: left;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    margin-right: .5rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+.information label {
+    display: block;
+    padding: .5rem;
+}
+
+.purpose {
+    display: flex;
+    justify-content: space-around;
+}
+
+.message{
+    display: grid;
+    margin: 15px;
+}
+
+.message label {
+    padding: 10px;
+     
+}
+
+.meetourstaff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--accent2-color);
+}
+
+.meetourstaff h2 {
+    grid-column: 1/4;
+}
+
+figure {
+    padding: 20px;
+    border-bottom: var(--low-opacity-border);
+    border-top: var(--low-opacity-border);
+}
+
+figure img {
+    border: solid 1px rgb(0 0 0 / 0.1);
+}
+
+figcaption {
+    border: var(--low-opacity-border);
+    background-color: var(--accent1-color)
+}
+
+iframe{
+    width: 600px;
+    height: auto;
+}
+
+section {
+    background-color: var(--accent2-color);
+}
+
+.reachus {
+    border-bottom: var(--low-opacity-border);
 }
