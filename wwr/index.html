@@ -26,21 +26,37 @@
         </nav>
     </header>
     <main>
+        <div class="booking">
+            <p>Want to plan a trip?</p>
+                <button onclick="location.href='trips.html'">Book Now</button>
+        </div>
         <div class="hero">
-            <img src="images/home-hero.jpg">
+            <img src="images/home-hero.jpg" alt="quad white water rafting">
             <h1>Welcome to White Water Riding</h1>
         </div>
-        <div class="hero-form">
-            <form>
-                <fieldset>
-                    <h2>Sign up to receieve our monthly newsletters!</h2>
-                    <label for="name">Name</label>
-                    <input type="text">
-                    <label for="email">Email</label>
-                    <input type="email">
-                </fieldset>
-                <button type="submit">Enroll to newsletter</button>
-            </form>
+        <div class="form-offerings">
+            <div class="home-newsletter-form">
+                <form>
+                    <fieldset>
+                        <h2>Sign up to receieve our monthly newsletters!</h2>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </fieldset>
+                    <button type="submit">Enroll to newsletter</button>
+                </form>
+            </div>
+            <div class="offerings">
+                <figure>
+                    <figcaption>Fun Family Thrills</figcaption>
+                    <img src="images/wwr(2).jpg" alt="family-rafting-together" width="250">
+                </figure>
+                <figure>
+                    <figcaption>Unforgettable Sight Seeing</figcaption>
+                    <img src="images/wwr(5).jpg" alt="beautiful-scenery" width="250">
+                </figure>
+            </div>
         </div>
     </main>
     <footer>

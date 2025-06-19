@@ -69,7 +69,6 @@ nav, p, section, article {
 }
 .hero {
     position: relative;
-    margin-top: 15px;
 }
 .hero img {
     display: block;
@@ -236,13 +235,54 @@ section {
     opacity: 1;;
 }
 
-.hero-form {
-    position: absolute;
-    top: 350px;
-    right: 25px;
+.home-newsletter-form form {
+    background: var(--accent2-color);
+    width: 420px;
+    margin: 0;
 }
 
-.hero-form form {
-    width: 250px;
-    height: 300px;
+.booking {
+    background-color: var(--secondary-color);
+    border: var(--low-opacity-border);
+    color: white;
+    padding: 5px;
+}
+
+.booking p {
+    font-size: .8em;
+    color: white;
+    padding: 0;
+}
+
+.booking button {
+    border: var(--low-opacity-border);
+    padding: 3px;
+    margin: .5em 0 0 0;
+    font-size: .7em;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.booking button:hover {
+    background-color: var(--accent1-color);
+}
+
+.form-offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--secondary-color);
+}
+.offerings {
+    background-color: var(--secondary-color);
+}
+
+.offerings img {
+    border: solid 5px var(--accent1-color);
+}
+.offerings figcaption {
+    background-color: var(--accent1-color);
+}
+
+.offerings figure {
+    padding-bottom: 3px
 }
