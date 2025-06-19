@@ -235,3 +235,14 @@ section {
     top: 0px;
     opacity: 1;;
 }
+
+.hero-form {
+    position: absolute;
+    top: 350px;
+    right: 25px;
+}
+
+.hero-form form {
+    width: 250px;
+    height: 300px;
+}
