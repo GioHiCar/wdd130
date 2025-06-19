@@ -222,11 +222,6 @@ button:hover {
     border: var(--low-opacity-border);
 }
 
-iframe{
-    width: 600px;
-    height: 300px;
-}
-
 section {
     background-color: var(--accent2-color);
 }
