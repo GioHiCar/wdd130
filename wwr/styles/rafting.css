@@ -212,24 +212,19 @@ button:hover {
     grid-column: 1/4;
 }
 
-figure {
-    padding: 20px;
-    border-bottom: var(--low-opacity-border);
+.meetourstaff figure {
+    padding: 15px;
     border-top: var(--low-opacity-border);
+    border-bottom: var(--low-opacity-border);
 }
 
-figure img {
-    border: solid 1px rgb(0 0 0 / 0.1);
-}
-
-figcaption {
+.meetourstaff figure img {
     border: var(--low-opacity-border);
-    background-color: var(--accent1-color)
 }
 
 iframe{
     width: 600px;
-    height: auto;
+    height: 300px;
 }
 
 section {
@@ -238,4 +233,10 @@ section {
 
 .reachus {
     border-bottom: var(--low-opacity-border);
+}
+
+.contact-h1 {
+    position: relative;
+    top: 0px;
+    opacity: 1;;
 }
