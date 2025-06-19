@@ -51,7 +51,9 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-
+h3, h3, h5 {
+    font-family: "Roboto";
+}
 #adventure-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -232,7 +234,7 @@ section {
 .contact-h1 {
     position: relative;
     top: 0px;
-    opacity: 1;;
+    opacity: 1;
 }
 
 .home-newsletter-form form {
@@ -284,5 +286,28 @@ section {
 }
 
 .offerings figure {
-    padding-bottom: 3px
+    padding-bottom: 3px;
 }
+
+
+.trip-h1 {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+}
+
+.trip-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid var(--primary-color)
+}
+
+.trip-section img{
+    border: 5px solid var(--accent1-color)
+}
+
+.contact-redirect {
+    background-color: var(--accent2-color);
+}
+
+
